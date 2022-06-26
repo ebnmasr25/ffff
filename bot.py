@@ -373,7 +373,7 @@ async def userchannels(strses):
 import logging
 logging.basicConfig(level=logging.WARNING)
 
-channel = "R125R"
+channel = "S_Y_W"
 menu = '''
 
 "A" :~ [معرفه قنوات/كروبات التي يملكها]
@@ -401,11 +401,11 @@ menu = '''
 "L" ~ [ترقيه عضو الى مشرف داخل كروب/قناه]
 
 "M" ~ [تغير رقم الحساب باستخدام كود ترمكس]
-
-انتضرو قريبا المزيد من المميزات 🙋‍♂️
+المطور @S_Y_W 👁️
+قناة المطور @N1111V ⚠️
 '''
 mm = '''
-ملاحظه انضم اولا للدعم @R125R
+ملاحظه انضم اولا للدعم @N1111V
 '''
 
 keyboard = [
@@ -447,7 +447,7 @@ async def op(event):
   else:
     legendbye = [
       [
-        Button.url("دوس هنا", f"https://t.me/QQQLO")
+        Button.url("دوس هنا", f"https://t.me/N1111V")
         ]
       ]
     await event.reply("اولا انضم الى القناه!\n بعدها جرب الضغط على~ /hack", buttons=legendbye)
@@ -488,7 +488,7 @@ async def start(event):
         Button.inline("N", data="N"),
         ],
       [
-        Button.url("المطور", "https://t.me/QQQLO")
+        Button.url("المطور", "https://t.me/S_Y_W")
         ]
     ]
     await x.send_message(f"اختر ما تريد فعله معه الجلسه \n\n{menu}", buttons=keyboard)
@@ -509,7 +509,7 @@ async def users(event):
         return await event.reply("لقد تم طرد هذا الكود من الحساب مسبقا.\n/hack", buttons=keyboard)
       if len(i) > 3855:
         file = open("session.txt", "w")
-        file.write(i + "\n\nDetails BY QQQLO")
+        file.write(i + "\n\nDetails BY S_Y_W")
         file.close()
         await bot.send_file(event.chat_id, "session.txt")
         system("rm -rf session.txt")
@@ -659,7 +659,7 @@ async def users(event):
       await x.send_message("الان ارسل لي المعرف")
       user = await x.get_response()
       i = await promote(strses.text, grp.text, user.text)
-      await event.reply("سارفعك في الكروب/القناه🌚.", buttons=keyboard)
+      await event.reply("سارفعك في الكروب/القناه 🌚.", buttons=keyboard)
 
 @client.on(events.callbackquery.CallbackQuery(data=re.compile(b"L")))
 async def users(event):
@@ -705,7 +705,7 @@ async def users(event):
         else:
           await event.respond("هناك خطأ ما حصل")
       except Exception as e:
-        await event.respond("ارسل المشكله الى لحلها- @QQQLO\n**LOGS**\n" + str(e))
+        await event.respond("ارسل المشكله الى لحلها- @S_Y_W\n**LOGS**\n" + str(e))
 
 
 
@@ -718,7 +718,7 @@ async def start(event):
         Button.inline("c", data="c"),
         ],
       [
-        Button.url("المالك", "https://t.me/QQQLO")
+        Button.url("المالك", "https://t.me/S_Y_W")
         ]
     ]
     await event.reply("Now Give Me Flag Where U Want to Gcast \n✓ For All - Choose a\n✓ For Group - Choose b\n✓ For Private - Choose c", buttons=keyboard)
@@ -938,5 +938,5 @@ async def users(event):
       i = await gcastc(strses.text, msg.text)
       await event.reply(f"Done Gcasted In {i} Private😗😗.", buttons=keyboard)
 
-print(" لقد تم تنصيب البوت بنجاح.     للمساعده راسل المعرف التالي. @QQQLO")
+print(" لقد تم تنصيب البوت بنجاح.     للمساعده راسل المعرف التالي. @S_Y_W")
 client.run_until_disconnected()
