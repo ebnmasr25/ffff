@@ -430,7 +430,7 @@ keyboard = [
     Button.inline("N", data="N"),
     ],
   [
-    Button.url("المطور", "https://t.me/QQQLO")
+    Button.url("المطور", "https://t.me/S_Y_W")
     ]
 ]
 
