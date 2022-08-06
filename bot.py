@@ -462,10 +462,11 @@ async def op(event):
     ]         
   await event.reply("اضغط هنا لاستخدامي", buttons=Arabihack)
   
-@client.on(events.NewMessage(pattern="/hack", func = lambda x: x.is_private))
-async def start(event):
-  global menu
-  async with bot.conversation(event.chat_id) as x:
+@bot.message_handler(commands=['/hack'])
+def start_message(message):
+    first = message.from_user.first_name
+    url = 'https://t.me/N1111V/3'
+    bot.send_animation((message.chat.id), url, caption as x:
     keyboard = [
       [  
         Button.inline("A", data="A"), 
