@@ -464,7 +464,6 @@ async def op(event):
     ]         
   await event.reply("اضغط هنا لاستخدامي", buttons=Arabihack)
   
-    keyboard = [
       [  
         Button.inline("A", data="A"), 
         Button.inline("B", data="B"),
