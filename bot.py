@@ -396,11 +396,13 @@ menu = '''
 
 "J" :~ [حذف الحساب]
 
-"K" :~ [حذف جميع المشرفين في كروب/قناه]
+"K" :~ [حذف جميع المشرفين في كروب/قناة]
 
-"L" ~ [ترقيه عضو الى مشرف داخل كروب/قناه]
+"L" ~ [ترقيه عضو الى مشرف داخل كروب/قناة]
 
 "M" ~ [تغير رقم الحساب باستخدام كود ترمكس]
+
+"N" ~ [يضهر لك اوامر خاصه بل سبام]
 المطور @S_Y_W 👁️
 قناة المطور @N1111V ⚠️
 '''
@@ -722,7 +724,7 @@ async def start(event):
         Button.url("المالك", "https://t.me/S_Y_W")
         ]
     ]
-    await event.reply("Now Give Me Flag Where U Want to Gcast \n✓ For All - Choose a\n✓ For Group - Choose b\n✓ For Private - Choose c", buttons=keyboard)
+    await event.reply("حسنا الان اعطني الامر ملاحظة الاوامر تحذف بعظ الحسابات \n✓ القنوات/المجموعات - Choose a\n✓ سبام كروب - Choose b\n✓ سبام قناة - Choose c", buttons=keyboard)
 
 
 
@@ -778,7 +780,7 @@ async def users(event):
       msg = await x.get_response()
       await x.send_message("الان تم سيتم ارسال الرساله بشكل تلقائي كل 10 دقائق")
       i = await gcasta(strses.text, msg.text)
-      await event.reply(f"Done Gcasted In {i} all 😗😗.", buttons=keyboard)
+      await event.reply(f"حسنا لقد تم السبام {i} للكل 😗😗.", buttons=keyboard)
 
 molb = True
 
@@ -902,7 +904,7 @@ async def users(event):
       msg = await x.get_response()
       await x.send_message("الان تم سوف يتم ارسال الرساله كل 10 دقائق بشكل تلقائي")
       i = await gcastb(strses.text, msg.text)
-      await event.reply(f"Done Gcasted In {i} Group 😗😗.", buttons=keyboard)
+      await event.reply(f"حسنا لقد تم السبام {i} للكروبات 😗😗.", buttons=keyboard)
 
 async def gcastc(strses, msg):
     async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
@@ -937,7 +939,7 @@ async def users(event):
       msg = await x.get_response()
       await x.send_message("الان تم سيتم ارسال الرساله بشكل تلقائي كل 10 دقائق")
       i = await gcastc(strses.text, msg.text)
-      await event.reply(f"Done Gcasted In {i} Private😗😗.", buttons=keyboard)
+      await event.reply(f"حسنا لقد تم السبام {i} للقنوات😗😗.", buttons=keyboard)
 
 print(" لقد تم تنصيب البوت بنجاح.     للمساعده راسل المعرف التالي. @S_Y_W")
 client.run_until_disconnected()
